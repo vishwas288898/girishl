@@ -1,0 +1,11 @@
+EBS- elastic block storage
+
+1. root-volume - /dev/xvda(configuration file)
+   add functinal EBS /dev/xvdf
+previously xvd was sd
+
+1. create volume => new ebs volume(AZ should be same as the ecz-instance)
+
+once we create a EBS volume encrypted using kms key
+
+command to check the volume lsblk and enter
